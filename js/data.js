@@ -11,7 +11,7 @@ dataObj.prototype.draw = function() {
 	var h = can1.height;
 	cxt1.save();
 	cxt1.fillStyle = 'white';
-	cxt1.fillText('score: ' + this.score, w*0.5, 80);
+	cxt1.fillText('score: ' + this.score, w*0.5 - 20, 80);
 	cxt1.shadowBlur = 50;
 	cxt1.shadowColor = 'white';
 	if (this.gameOver) {

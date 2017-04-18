@@ -37,6 +37,8 @@ var halo;
 var dust;
 var dustPic = [];
 
+var btn;
+
 window.onload = function() {
 	game();
 }
@@ -60,6 +62,8 @@ function init() {
 	canHeight = can1.height;
 	
 	can1.addEventListener('mousemove', onMouseMove, false);
+	btn = document.getElementById("btn");
+	btn.style.left = canWidth/2 - 50 + 'px';
 	
 	ane = new aneObj();
 	ane.init();

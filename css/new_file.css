@@ -31,7 +31,6 @@ body {
 
 #btn {
 	position: absolute;
-	left: 630px;
 	z-index: 999;
 	top: 30px;
 	background-color: white;
